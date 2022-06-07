@@ -1,0 +1,621 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+/* Normalize  */
+*{
+  font-family: "Open Sans", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: #a1aed4;
+    overflow-x: hidden;
+    background-color: #1f0644;
+    background: #1f0644;
+}
+
+/* All*/
+h1,h2,h3,h4,h5,h6 {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.button1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.25em;
+    color: white;
+    padding: 0.75em 2.188em;
+    border-radius: 3.125em;
+    border: none;
+    background-color: rgba(84,6,143,1);
+    box-shadow: inset 0px 0px 10px 7px #fea036;
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
+.button1:hover {
+    color: #fff;
+    box-shadow: inset 0px 0px 10px 7px #00a2ff;
+}
+
+.sectio-heading{
+    width: 31.25em;
+    margin: auto;
+    text-align: center;
+ }
+ .sectio-heading h3{
+     font-size: 2.188em;
+     line-height: 2.125em;
+     color: #fa009f;
+     font-weight: 600;
+     margin-bottom: 0.625em;
+ }
+ .sectio-heading h1{
+     font-size: 3.75em;
+     font-weight: 700;
+ }
+ .sectio-heading h6{
+     font-size: large;
+ }
+
+/*-------------------- Header start ----------------------*/
+.responsive{
+    display: none;
+}
+.header .navbar{
+    background-color: rgb(62, 4, 105);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+#navStyle{
+font-size: 20px;
+line-height: 34px;
+color: white;
+font-weight: 600;
+text-shadow: 0px 0px 10px #bf0b2d;
+margin-left: 20px;
+margin-top: 0px;
+}
+#navStyle:hover{
+    color: #fa009f;
+}
+#navStyle img{
+    width: 150px;
+    height: 100px;
+  
+}
+.container-fluid .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+/*--------------- Header End ---------------*/
+
+/*----------------Cover Section start ---------*/
+.cover-section{
+    width: 100%;
+    height: 155vh;
+    background-color: #a1aed4;
+    background: url(./h4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.mian-cover-section{
+    width: 100%;
+    margin-top: 10em;
+    margin-bottom: 0em;
+    position: relative;
+}
+.mian-cover-section .background{
+    width: 100%;
+    height: 100%;
+    background: url(../images/home/h2-shape.png);
+    background-position: bottom;
+    background-size:  100%;
+    position: absolute;
+    z-index: -0.5;
+    transition: all 400ms ease;
+}
+.cover-section-content{
+    width: 100%;
+    height: 60vh;
+    margin-top: 8.75em;
+    padding: 0em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cover-section-content h1{
+    font-size: 3.123em;
+    font-weight: bolder;
+    text-shadow: 0px -1px 10px rgb(12 19 55 / 0%),0px -2px 10px #1b7ae2,0px -10px 20px #1b7ae2,0px -18px 40px #1b7ae2;
+    margin-top: 1.875em;
+    text-align: center;
+}
+.cover-section-content img{
+    width: 90%;
+}
+.cover-section .btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40rem;
+    left: 1.25em;
+}
+.cover-section .videoBtn{
+    width: 80px;
+    height: 80px;
+    background: url(../images/video_btn.png);
+    background-size: contain;
+    position: relative;
+    margin-top: 10px;
+}
+.cover-section .videoBtn span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 14px;
+    left: 19px;
+    background-color: #ef764c;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: medium;
+}
+/*----------------Cover Section end---------*/
+/*---------------- Counter Section start ------*/
+.counter-section{
+    width: 100%;
+    background: url(../images/counter-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 15px 10px #00a2ff inset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.counter-section div{
+    flex: auto;
+}
+.counter-section .left-info p{
+    font-size: 24px;
+    line-height: 34px;
+    color: #fa009f;
+    font-weight: 600;
+}
+.counter-section .left-info h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.counter-section .left-info button{
+    margin-top: 25px;
+    background-color: rgb(37, 3, 92);
+}
+.counter-section .prize-pool{
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    height: 400px;
+    width: 309px;
+    overflow: hidden;
+    
+}
+.counter-section .prize-pool h2 {
+    color: #00a2ff;
+    font-size: 24px;
+    font-weight: 800;
+}
+.counter-section .prize-pool h1 {
+    font-size: 60px;
+    color: rgb(37, 3, 92);
+    text-shadow: 0 0 3px #fe77ff, 0 0 5px #fe77ff;
+}
+.counter-section .prize-pool .time{
+    color: white;
+    margin-bottom: 0;
+
+}
+.counter-section .prize-pool img { 
+    padding: 0px;
+    position: absolute;
+    left: 24px;
+    right: 0px;
+    top: 120px;
+}
+.last-winners h3{
+    font-size: 24px;
+    line-height: 34px;
+    color: #fa009f;
+    font-weight: 600; 
+}
+/*---------------- Counter Section End ------*/
+/*---------------- Game Play Section start ------*/
+.game-play{
+    width: 100%;
+    padding: 120px 0px 120px 0px;
+    background: url(../images/game-play/section-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.sectio-heading{
+   width: 100%;
+}
+.game-play h3{
+    font-size: 2.188em;
+    line-height: 2.125em;
+    color: #fa009f;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.game-play  h1{
+    font-size: 3.75em;
+    font-weight: 700;
+}
+.game-play h6{
+    font-size: large;
+}
+.left-image,.right-image{
+    position: absolute;
+    bottom: 0px;
+    z-index: -0.75;
+}
+.left-image{
+    left: 0px;
+}
+.right-image{
+    right: 0px;
+}
+.game-play .games-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.game-play .game-content{
+    width: 300px;
+    height: 450px;
+    margin-top: 40px;
+    box-shadow: -0px 0px  12px 7px #9a13d2 inset;
+    border-radius: 10px;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s;
+}
+.game-play .game-content:hover{
+    box-shadow: -0px 0px  12px 7px #fea036 inset;
+    transform: translateY(-10px);
+}
+.game-play .game-content .image{
+    width: 210px;
+    height: 210px;
+    box-shadow: -0px 0px  15px 7px #9a13d2 inset;
+    margin: auto;
+    border-radius: 50%;
+}
+.game-play .games-container .game-content button{
+    background-color: transparent;
+    margin-top: 30px;
+}
+.game-play .game-content h6{
+    margin-top: 30px;
+    color: #cfcffd;
+    font-size: 16px;
+}
+.game-play .game-content ul{
+    list-style: none;
+}
+.game-play .game-content li {
+    background-color:  #300983;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    margin-right: 0px;
+    text-align: center;
+    border: 1px solid purple;
+    box-shadow: 0px 0px  7px 3px #9a13d2 inset; 
+    overflow: hidden;  
+}
+.game-play .game-content li img{
+    width: 30px;
+    height: 30px;
+}
+.game-play .game-content li span{
+    font-size: 12px;
+    color: #cfcffd;
+}
+.game-play .game-content .peoples {
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.game-play .game-content .people1{
+    position: absolute;
+    left: 90px;
+}
+.game-play .game-content .people2{
+    position: absolute;
+    left: 110px;
+}
+.game-play .game-content .people3{
+    position: absolute;
+    left: 130px;
+}
+ .game-play .game-content .people4{
+    position: absolute;
+    left: 150px;
+}
+.game-play .game-content .people5{
+    position: absolute;
+    left: 170px;
+}
+.game-play .browseBtn{
+    position: relative;
+    background: transparent;
+    border: none;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+.game-play .browseBtn a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #cfcffd;
+} */
+/*----------Game Play Section End ---------*/
+
+/*---------- Leaderboard And Changeling Start --------*/
+.leaderboard{
+    width: 100%;
+    height: auto;
+    background: url(../images/latest-activitis.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.leaderboard .section-heading{
+    width: 100%;
+    margin-top: 6.875em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leaderboard .section-heading h3{
+    font-size: 2.188em;
+    color: #fa009f;
+    font-weight: 600;
+    text-align: center;
+}
+.leaderboard .section-heading h1{
+    font-size: 3.75em;
+    font-weight: 700;
+    text-align: center; 
+}
+.leaderboard .section-heading h6{
+    font-size: large;
+}
+.leaderboard div.button {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.leaderboard .button button{
+    width: 150px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    background-color: rgb(37, 3, 92);
+    color: white;
+    font-weight: 600;
+    border: none;
+    box-shadow: inset 0px 0px 6px 4px #7f72b3, inset 0px 0px 16px #7f72b3;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.leaderboard .button button:hover{
+    box-shadow: inset 0px 0px 6px 4px #00a2ff, inset 0px 0px 16px #00a2ff;
+}
+.leaderboard .arcive  {
+    width: 90%;
+    margin-top: 4.375em;
+    padding: 3.125em 1.875em;
+    margin: auto;
+    border: 1px solid #9a13d2;
+    background-color: #220c44;
+    box-shadow: inset 0px 0px 6px 2px #9a13d2, 0px 0px 10px #9a13d2;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.25em;
+}
+.leaderboard .arcive .column1 .row1 h3{
+    font-size: 1.563em;
+    line-height: 1.875em;
+    color: #fa009f;
+    font-weight: 600;
+    margin-bottom: 0.625em;
+    margin-top: 0.75em;
+}
+.leaderboard .arcive .column1 .row1 h2{
+    font-size: 1.875em;
+     font-weight: 700;
+     margin-bottom: 1.875em;
+}
+.leaderboard .arcive .column1 .row2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25em;
+}
+.leaderboard .arcive .column1 .row2 .image img{
+    width: 5.625em;
+}
+.leaderboard .arcive .column1 .row2 .package{
+    width: 14.375em;
+}
+.leaderboard .arcive .column1 .row2 .package h3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.leaderboard .arcive .column1 .row2 .package p{
+    font-size: 1em;
+    color: #b0b0ef;
+}
+.leaderboard .arcive .column2 .players {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #280a4b;
+    border-top: 5px solid #211863;
+    border-bottom: 5px solid #211863;
+    padding: 1.25em 1.25em 1.25em;
+    margin-bottom: 0.938em;
+}
+.leaderboard .arcive .column2 .players .player-picture{
+    width: 3.75em;
+    height: 3.75em;
+    box-shadow: 0px 0px 10px  #00a2ff inset;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 0.688em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}   
+.leaderboard .arcive .column2 .players .player-picture img{
+    width: 2.5em;
+    height: 2.5em;
+}
+.leaderboard .arcive .column2 .players .player-name,.player-picture{
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+}
+.leaderboard .arcive .column2 .players .player-name h3{
+    font-size: 1.188em;
+    color: #cfcffd;
+    margin: 0em;
+}
+.leaderboard .arcive .column2 .players .player-name span i{
+    font-size: 0.625em;
+    color: #f6cb41;
+}
+.leaderboard .arcive .column2 .players .prize {
+    color: #f6cb41;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---------------Leader Section End------------*/
+
+/*---------------- Exclusive Lottery start---------*/ 
+
+.exclusive {
+    padding: 100px 20px;
+    padding-bottom: 200px;
+    background: url(../images/ex-lottery-bg.jpg);
+    background-position: center;
+    width: 100%;
+}
+.exclusive .sectio-heading{
+    width: auto;
+}
+
+/*--------- Join start-------------*/
+.join{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+}
+.join .sectio-heading{
+    width: auto;
+    margin-top: 30px;
+}
+/*-----------subscribre Section start----------------*/
+.subscribe{
+    width: 80%;
+    padding: 50px 10px;
+    background: url(../images/newsletter.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 15px 15px -10px #00a2ff inset, 0px -15px 15px -10px #00a2ff inset;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    left: 86px;
+    right: 86px;
+}
+.subscribe .text{
+    width: 100%;
+}
+.subscribe .text{
+    text-align: center;
+}
+.subscribe .text h3{
+    font-size: 35px;
+    line-height: 34px;
+    color: #fa009f;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe .text div{
+    width: 100%;
+    text-align: center;
+}
+.subscribe .text div h1{
+    font-size: 40px;
+     font-weight: 700;
+}
+.subscribe .input{
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+    background: url(../images/footerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer h1{
+    border-top: 1px solid #a1aed4;
+    width: 80%;
+    margin-left: 100px;
+   margin-top: 200px;
+   font-size: 24px;
+   color: #a1aed4;
+   padding-top: 50px;
+}
+

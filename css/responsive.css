@@ -1,0 +1,115 @@
+/*---------------- navbar-----------*/
+@media (max-width: 1000px) {
+    .responsive {
+        display: block;
+    }
+
+    .responsive img {
+        width: 90px;
+        height: 50px;
+    }
+
+    #navStyle img {
+        display: none;
+    }
+    /* Navbar End */
+
+    /*---------------- Counter Section start ------*/
+    .counter-section {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .left-info {
+        text-align: center;
+    }
+
+    .last-winners {
+        text-align: center;
+    }
+
+    .counter-section .prize-pool img {
+        left: 5px;
+    }
+    /*---------------- Counter Section end ------*/
+
+    /*---------------- Game play Section start ------*/
+    .game-play .left-image, .right-image {
+        display: none;
+    }
+
+
+    /*---------------- Game play Section End ------*/
+    /*---------------- leaderboard Section start ------*/
+    .leaderboard .arcive {
+        flex-direction: column;
+    }
+
+    .leaderboard .arcive .column1 .row2 .package {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    /*---------------- leaderboard Section End ------*/
+    .subscribe .input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .subscribe .input button {
+        width: 310px;
+        margin-top: 10px;
+    }
+
+}
+@media (max-width: 786px) {
+    /* .leaderboard section start */
+    .leaderboard .arcive {
+        width: 100%;
+        position: relative;
+    }
+    .leaderboard .arcive .column1 .row2 .image img{
+        width: 3em;
+    }
+    .leaderboard .arcive .column1 .row2 .package {
+        width: 12em;
+    }
+    .leaderboard .arcive .column2{
+        overflow-x: auto;
+    }
+    .leaderboard .arcive .column2 .players{
+        width: 100%;
+        padding: 1em 1em 1em;
+        justify-content: space-between;
+        margin-bottom: 0.938em;
+    }
+    .leaderboard .arcive .column2 .players .player-picture{
+        margin-left: 0em;
+        margin-right: 0em;
+    } 
+    .leaderboard .arcive .column2 .players .player-name,.player-picture{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .leaderboard .arcive .column2 .players .player-name h3{
+        font-size: 1em;
+        color: #cfcffd;
+        margin: 0em;
+    }
+    .leaderboard .arcive .column2 .players .prize img{
+        width: 2em;
+    }
+    .leaderboard .arcive .column2 .players .prize {
+        color: #f6cb41;
+        font-size: 0.938em;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+    }
+    /* .leaderboard section end  */
+
+    
+}
