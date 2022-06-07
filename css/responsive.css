@@ -51,17 +51,6 @@
     }
 
     /*---------------- leaderboard Section End ------*/
-    .subscribe .input {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .subscribe .input button {
-        width: 310px;
-        margin-top: 10px;
-    }
-
 }
 @media (max-width: 786px) {
     /* .leaderboard section start */
@@ -110,6 +99,26 @@
         width: 20%;
     }
     /* .leaderboard section end  */
+    .subscribe .input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-    
+    .subscribe .input button {
+        width: 17em;
+        margin-top: 10px;
+    }
+    .subscribe .text h3{
+        font-size: 1.5em;
+    }
+    .subscribe .text div h1{
+        font-size: 1.60em;
+         font-weight: 700;
+    }
+    .footer h1{
+        font-size: 0.55em;
+    }
+
+
 }

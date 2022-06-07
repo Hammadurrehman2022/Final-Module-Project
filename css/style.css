@@ -566,8 +566,8 @@ margin-top: 0px;
     border-radius: 20px;
     margin: auto;
     position: absolute;
-    left: 86px;
-    right: 86px;
+    left: 0px;
+    right: 0px;
 }
 .subscribe .text{
     width: 100%;
@@ -576,8 +576,7 @@ margin-top: 0px;
     text-align: center;
 }
 .subscribe .text h3{
-    font-size: 35px;
-    line-height: 34px;
+    font-size: 2.188em;
     color: #fa009f;
     font-weight: 600;
     margin-bottom: 10px;
@@ -588,7 +587,7 @@ margin-top: 0px;
     text-align: center;
 }
 .subscribe .text div h1{
-    font-size: 40px;
+    font-size: 2.5em;
      font-weight: 700;
 }
 .subscribe .input{
@@ -612,10 +611,11 @@ margin-top: 0px;
 .footer h1{
     border-top: 1px solid #a1aed4;
     width: 80%;
-    margin-left: 100px;
-   margin-top: 200px;
-   font-size: 24px;
-   color: #a1aed4;
-   padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 200px;
+    font-size: 1.5rem;
+    color: #a1aed4;
+    padding-top: 50px;
 }
 
